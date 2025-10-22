@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Registro | Movilidad Universitaria</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 26px;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    iframe {
+      border: none;
+      width: 90%;
+      max-width: 700px;
+      height: 80vh;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      background-color: white;
+    }
+
+    .btn-volver {
+      display: inline-block;
+      background-color: #0077cc;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 25px;
+      transition: background 0.3s;
+    }
+
+    .btn-volver:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      background-color: #005fa3;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+      margin-top: auto;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 22px;
+      }
+      iframe {
+        height: 70vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Formulario de Registro</h1>
+    <p>Completa tus datos para unirte a Movilidad Universitaria</p>
+  </header>
+
+  <main>
+    <!-- Reemplaza el src con el de tu formulario de Google -->
+    <iframe src="https://forms.gle/2PLTBVT17iTepGoj8">Cargando…</iframe>
+
+    <a href="index.html" class="btn-volver">⬅ Volver al inicio</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Movilidad Universitaria. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
